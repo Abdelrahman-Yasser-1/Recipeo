@@ -1,0 +1,41 @@
+import { AnalyzedInstruction, ExtendedIngredient } from "./Helpers";
+
+export default interface RandomRecipe {
+  vegetarian: boolean;
+  vegan: boolean;
+  glutenFree: boolean;
+  dairyFree: boolean;
+  veryHealthy: boolean;
+  cheap: boolean;
+  veryPopular: boolean;
+  sustainable: boolean;
+  lowFodmap: boolean;
+  weightWatcherSmartPoints: number;
+  gaps: string;
+  preparationMinutes?: number;
+  cookingMinutes?: number;
+  aggregateLikes: number;
+  healthScore: number;
+  creditsText: string;
+  sourceName: string;
+  pricePerServing: number;
+  extendedIngredients: ExtendedIngredient[];
+  id: number;
+  title: string;
+  readyInMinutes: number;
+  servings: number;
+  sourceUrl: string;
+  image?: string;
+  imageType?: string;
+  summary: string;
+  cuisines: string[];
+  dishTypes: string[];
+  diets: string[];
+  occasions: string[];
+  instructions: string;
+  analyzedInstructions: AnalyzedInstruction[];
+  originalId: any;
+  spoonacularScore: number;
+  spoonacularSourceUrl: string;
+  license?: string;
+}
