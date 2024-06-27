@@ -10,7 +10,7 @@ import httpClient from '../httpClient';
 const queryRecipe = {
   randomRecipes: (): Promise<GetRandomRecipesResponse> =>
     httpClient
-      .get<GetRandomRecipesResponse>("recipes/random?number=30")
+      .get<GetRandomRecipesResponse>("recipes/random?number=10")
       .then((response) => response.data),
 
   recipeInformation: (
