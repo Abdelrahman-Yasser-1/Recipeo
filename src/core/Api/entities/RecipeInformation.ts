@@ -1,4 +1,4 @@
-import { ExtendedIngredient, WinePairing } from "./Helpers";
+import { AnalyzedInstruction, ExtendedIngredient, WinePairing } from "./Helpers";
 
 export default interface RecipeInformation {
   id: number;
@@ -14,7 +14,7 @@ export default interface RecipeInformation {
   healthScore: number;
   spoonacularScore: number;
   pricePerServing: number;
-  analyzedInstructions: any[];
+  analyzedInstructions: AnalyzedInstruction[];
   cheap: boolean;
   creditsText: string;
   cuisines: any[];
