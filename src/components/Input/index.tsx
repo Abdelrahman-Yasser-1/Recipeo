@@ -7,7 +7,7 @@ interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
 export default React.memo((props: InputProps) => {
   const { label, ...rest } = props;
   return (
-    <div className="relative rounded-xl w-80">
+    <div className="relative rounded-xl w-full">
       <input
         {...rest}
         className="peer block w-full appearance-none rounded-md border-[1px] border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-900 focus:outline-none focus:ring-0"
