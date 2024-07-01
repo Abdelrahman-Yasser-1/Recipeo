@@ -3,3 +3,8 @@ export { default as Banner } from "./Banner";
 export { default as Chip } from "./Chip";
 export { default as RecipeItem } from "./RecipeItem";
 export { default as RecipesList } from "./RecipesList";
+export { default as Section } from "./Section";
+export { default as IngredientItem } from "./IngredientItem";
+export { default as Loader } from "./Loader";
+export { default as Search } from "./Search";
+export { default as Footer } from "./Footer";
