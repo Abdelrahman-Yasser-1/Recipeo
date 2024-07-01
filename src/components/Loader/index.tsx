@@ -12,5 +12,9 @@ export default React.memo(() => {
     },
   };
 
-  return <Lottie options={defaultOptions} height={400} width={400} />;
+  return (
+    <div className="flex-grow">
+      <Lottie options={defaultOptions} height={400} width={400} />
+    </div>
+  );
 });

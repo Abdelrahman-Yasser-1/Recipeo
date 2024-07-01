@@ -1,6 +1,7 @@
 import React from "react";
 import { Img } from "react-image";
 import { Balancer } from "react-wrap-balancer";
+import ImagePlaceholder from "../ImagePlaceholder";
 
 interface IngredientCardProps {
   image: string;
@@ -17,6 +18,18 @@ export default React.memo((props: IngredientCardProps) => {
         className="aspect-square w-20 border bg-slate-100 rounded-lg flex items-center justify-center"
         src={image}
         alt={title}
+        unloader={
+          <ImagePlaceholder
+            alt={title}
+            className="aspect-square w-20 border bg-slate-100 rounded-lg flex items-center justify-center"
+          />
+        }
+        loader={
+          <ImagePlaceholder
+            alt={title}
+            className="aspect-square w-20 border bg-slate-100 rounded-lg flex items-center justify-center"
+          />
+        }
       />
       <header className="flex flex-col justify-center py-2">
         <h3 className="text-sm font-bold">{title}</h3>
