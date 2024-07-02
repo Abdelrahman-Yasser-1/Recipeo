@@ -76,7 +76,7 @@
   <img src="">
 </div>
 
-Smale task using React JS and Bootstrap, to design _responsive_ and _dynamic_ **Online Courses Website** with two views desktop and mobile.
+Recipeo is a recipe search engine that allows you to search for recipes. Recipeo also provides a random recipe feature that allows you to discover new recipes. The recipes are fetched from the Spoonacular API
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,8 +88,7 @@ Smale task using React JS and Bootstrap, to design _responsive_ and _dynamic_ **
 	<img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>    
 	<img src="https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white"/>    
 	<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>    
-	<img src="https://raw.githubusercontent.com/Abdelrahman-Yasser-1/Recipeo/3e48fae1ffcd43b91cca65d3e9a84bdda0c82ce9/src/assets/axios.svg" width="100px" height="28px" style="margin-left: 3px; background-color: white; padding-left:5px; padding-right:5px"/>    
-	<img src=""/>    
+	<img src="https://raw.githubusercontent.com/Abdelrahman-Yasser-1/Recipeo/3e48fae1ffcd43b91cca65d3e9a84bdda0c82ce9/src/assets/axios.svg" width="100px" height="28px" style="margin-left: 3px; background-color: white; padding-left:5px; padding-right:5px"/> 
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
