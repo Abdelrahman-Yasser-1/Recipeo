@@ -72,10 +72,6 @@
 
 ## About The Project
 
-<div align="center">
-  <img src="">
-</div>
-
 Recipeo is a recipe search engine that allows you to search for recipes. Recipeo also provides a random recipe feature that allows you to discover new recipes. The recipes are fetched from the Spoonacular API
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
