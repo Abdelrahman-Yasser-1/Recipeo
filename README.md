@@ -1,46 +1,132 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
 
-## Available Scripts
+<div align="center">
+  <a href="https://recipeo.vercel.app/">
+    <img src="https://raw.githubusercontent.com/Abdelrahman-Yasser-1/Recipeo/3e48fae1ffcd43b91cca65d3e9a84bdda0c82ce9/src/assets/logo.svg" alt="Logo" width="80" height="80">
+  </a>
+<h1 align="center">Recipeo</h1>
 
-In the project directory, you can run:
+  <p align="center">
+    <p>Simple dynamic website to practice on ·React JS ·Firebase ·Bootstrap.</p>
+    <br />
+    <a href="https://recipeo.vercel.app/"><strong>View Demo »</strong></a>
+    <br />
+    <a href="https://github.com/Abdelrahman-Yasser-1/Recipeo/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Abdelrahman-Yasser-1/Recipeo/issues">Request Feature</a>
+  </p>
+</div>
 
-### `npm start`
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+  <li><a href="#installation">Installation</a></li>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#deployed-with">Deployed With</a></li>
+        <li><a href="#tools">Tools</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository to your local machine using the following command:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/Abdelrahman-Yasser-1/Recipeo
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate into the project directory:
 
-### `npm run build`
+   ```bash
+   cd Recipeo
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install project dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Run project:
 
-### `npm run eject`
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   Runs the app in the development mode.\
+    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   The page will reload when you make changes.\
+    You may also see any lint errors in the console.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## About The Project
 
-## Learn More
+<div align="center">
+  <img src="">
+</div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Smale task using React JS and Bootstrap, to design _responsive_ and _dynamic_ **Online Courses Website** with two views desktop and mobile.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+<div> 
+	<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>    
+	<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/>    
+	<img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>    
+	<img src="https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white"/>    
+	<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>    
+	<img src="https://raw.githubusercontent.com/Abdelrahman-Yasser-1/Recipeo/3e48fae1ffcd43b91cca65d3e9a84bdda0c82ce9/src/assets/axios.svg" width="100px" height="28px" style="margin-left: 3px; background-color: white; padding-left:5px; padding-right:5px"/>    
+	<img src=""/>    
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Deployed With
+
+<div> 
+	<a href="https://vercel.com//" target="_blank">
+  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Tools
+
+<div> 
+	<a href="https://code.visualstudio.com/" target="_blank">
+  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+  </a>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Contact
+
+<div align="left">
+  <a href="mailto:abdelrahman.yasser.365@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail logo"  />
+  </a>
+  <a href="https://www.linkedin.com/in/abdelrahman-yasser-346491197/" target="_blank">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin logo"  />
+  </a>
+  <a href="https://api.whatsapp.com/send?phone=+201019347297&text=Hi!😀" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="whatsapp logo"  />
+  </a>
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
