@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FaSquareGithub } from "react-icons/fa6";
 
 export default React.memo(() => {
