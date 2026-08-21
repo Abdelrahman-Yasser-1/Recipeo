@@ -1,4 +1,4 @@
-export default {
+const ConsoleColors = {
   get: '#6BDD9A',
   head: '#79E0A4',
   post: '#FFE47E',
@@ -8,3 +8,5 @@ export default {
   options: '#F15EB0',
   url: '#F09B51',
 };
+
+export default ConsoleColors;
